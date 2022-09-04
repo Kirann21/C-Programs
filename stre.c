@@ -5,12 +5,10 @@ int k=0, m=0,l;
 char str [100];
 printf("Enter a sentence :\n");
 scanf("%[^\n]s",str);
-printf("Enter a position :\n");
-scanf("%d",&k);
-printf("Enter no.of characters :\n");
-scanf("%d",&m);
-for(int i = k-1 ; i < k+m-1 ; i++)
+for(int i = 0; str[i]!='/0';i++)
 {
+ if((str[i]>='a'&&str[i]<='z')||(str[i]>='A'&&str[i]<='Z'))
     printf("%c",str[i]);
+    
 }
 }
