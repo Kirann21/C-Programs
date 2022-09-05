@@ -1,0 +1,1 @@
+Enter the values to be stored inside the array
